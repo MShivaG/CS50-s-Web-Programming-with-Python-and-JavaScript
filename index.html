@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Search</title>
+        <link rel="stylesheet" href="googlesearch.css">
+    </head>
+    <body>
+        <div>
+        <center>
+            <div id="link">
+                <a href="isearch.html">Google Images</a>
+                <a href="asearch.html">Advanced Search</a>
+            </div>
+            <img id="img" src="googlelogo_color_272x92dp.png"><br><br>
+            <form id="gform" action="https://www.google.co.in/search">
+                <input id="btnI" type="hidden" name="btnI" value="I'm Feeling Lucky" disabled>
+                <input id="q" type="text" name="q" required><br>
+                <input class="button" type="submit" value="Google Search">
+                <input class="button" type="button" onclick="bypass()" value="I'm Feeling Lucky">
+                
+            </form>            
+        </center>
+        </div>
+        <script>
+            function bypass(){
+                //alert(document.getElementById("q1"));
+                document.getElementById("btnI").disabled=false;
+                document.getElementById("gform").submit();
+            }
+        </script>
+    </body>
+</html>

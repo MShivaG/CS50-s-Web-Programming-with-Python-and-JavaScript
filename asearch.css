@@ -1,0 +1,39 @@
+img{
+    height: 30px;
+    width: auto;
+    margin-top: -25%;
+}
+
+.it{
+    width: 1000px;
+    display: table-cell; 
+    height: 20px;
+}
+
+h3{
+    color: red;
+    padding: 10px;
+}
+
+hr{
+    margin-bottom: 50px;
+    color: rgb(240, 240, 240);
+}
+
+form{
+    padding-left: 25px;
+}
+
+p{ 
+    display: table-row;  
+}
+
+label{ 
+    display: table-cell; 
+}
+
+#btn{
+    color: white; 
+    background-color: rgb(69, 69, 250); 
+    height: 25px;
+}

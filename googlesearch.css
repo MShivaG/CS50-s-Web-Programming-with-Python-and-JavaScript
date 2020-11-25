@@ -1,0 +1,40 @@
+#link{
+    text-align: right;
+    margin: 20px;
+}
+
+input{
+    margin: 20px;
+}
+
+#q{
+    border-radius: 24px;
+    width: 500px;
+    height: 30px;
+}
+
+a{
+    margin: 5px;
+}
+
+#img{
+    margin-top: 5%;
+    height: 200px;
+    width: auto;
+}
+
+.button{
+    background-color: lightgray;
+    width: 150px;
+    height: 25px;
+    font-size: medium;
+}
+
+p{
+    margin: 10px;
+    margin-left: 30%;
+}
+
+#logo{
+    color: blue;
+}
